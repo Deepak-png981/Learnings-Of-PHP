@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.container{
+    background-color: rgb(117, 236, 236);
+    padding: 34px;
+    /* margin: 23px; */
+    margin: auto;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.container h3, p {
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+}
+p{
+    font-size: 17px;
+}
+input , textarea{
+    /* display: block; */
+    width: 80%;
+    margin: 11px 7px;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius:6px ;
+    outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    color: white;
+    background-color: purple;
+    padding: 7px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.submitMsg{ 
+    padding: auto;
+    color: green;
+    background-color: rgb(243, 234, 234);
+}
